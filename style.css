@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(190, 214, 239);
+  background: linear-gradient(
+    94deg,
+    rgba(190, 214, 239, 1) 0%,
+    rgba(0, 241, 229, 1) 100%
+  );
+}
+#button {
+  transition: all .1s;
+}
+
+#button:hover {
+  background-color: #5185d3;
+}
+
+#button:active {
+  transform: translate(2%, 5px)
+}
+
+/* transform: translate(2%, 2px) */

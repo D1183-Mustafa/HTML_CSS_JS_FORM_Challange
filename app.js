@@ -64,7 +64,7 @@ function inputcontrol(e) {
     setTimeout(() => {
       document.getElementById("alert").remove();
       window.location.reload(false);
-    }, 1000);
+    }, 2000);
   } else {
     radioControl();
   }
@@ -90,7 +90,7 @@ function radioControl() {
     setTimeout(() => {
       document.getElementById("alert").remove();
       window.location.reload(false);
-    }, 1000);
+    }, 2000);
   } else {
     inputDateControl();
     
@@ -109,7 +109,7 @@ function inputDateControl(){
     setTimeout(() => {
       document.getElementById("alert").remove();
       window.location.reload(false);
-    }, 1000);
+    }, 2000);
   }else {
     inputTelControl();
   }
@@ -126,7 +126,7 @@ function inputTelControl() {
     setTimeout(() => {
       document.getElementById("alert").remove();
       window.location.reload(false);
-    }, 1000);
+    }, 2000);
   }else {
     container.style.display = "none";
     loading.style.display = "block"
